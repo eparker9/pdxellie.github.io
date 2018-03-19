@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Python Code"
-categories: junk
-author: "Eric Parker"
-meta: "Springfield"
 ---
 
 import turtle
