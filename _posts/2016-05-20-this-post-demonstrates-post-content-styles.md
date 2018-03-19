@@ -2,22 +2,35 @@
 layout: post
 title: "Python Code"
 categories: junk
-author: "Bart Simpson"
+author: "Eric Parker"
 meta: "Springfield"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+import turtle
 
+t = turtle.Turtle()
 
-```html
-<html>
-  <head>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
-</html>
-```
+s = turtle.Turtle()
+s.color("Blue")
 
+def draw_a_polygon(a_turtle, number_of_sides):
+  for loop_counter in range(number_of_sides):
+    a_turtle.forward(100)
+    a_turtle.right(360/number_of_sides)
+    
+# Draw a square
+def draw_a_square(a_turtle):
+  for loop_counter in range(4):
+    a_turtle.forward(100)
+    a_turtle.right(90)
+  
+# Draw a triangle
+def draw_a_triangle():
+  for i in range(3):
+    t.forward(100)
+    t.right(120)
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit maur
+draw_a_square(t)
+s.goto(200,200)
+draw_a_square(s)
+draw_a_triangle()
