@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Another Page
+title: Photos
 ---
 
 This is another page. It is automatically added to the menu with a link
