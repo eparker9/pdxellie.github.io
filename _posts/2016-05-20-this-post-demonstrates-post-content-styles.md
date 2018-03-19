@@ -15,13 +15,11 @@ def draw_a_polygon(a_turtle, number_of_sides):
     a_turtle.forward(100)
     a_turtle.right(360/number_of_sides)
     
-# Draw a square
 def draw_a_square(a_turtle):
   for loop_counter in range(4):
     a_turtle.forward(100)
     a_turtle.right(90)
   
-# Draw a triangle
 def draw_a_triangle():
   for i in range(3):
     t.forward(100)
